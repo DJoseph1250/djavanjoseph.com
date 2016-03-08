@@ -1,0 +1,45 @@
+body {
+	margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+video {
+    z-index: -99; 
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+#overlay {
+    position: fixed;
+	z-index: -1;
+	background-color: rgba(0,0,0,0.8);
+	height: 830px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#about-me {
+	z-index: 0;
+	color: white;
+	height: 25%;
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: rgba(0,0,0,0.8);*/
+	border-style: solid;
+	border-color: white;
+	border-width: 10px;
+	text-align: center;
+}
