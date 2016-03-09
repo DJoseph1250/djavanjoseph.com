@@ -19,7 +19,7 @@ video {
 #overlay {
     position: fixed;
 	z-index: -1;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.7);
 	height: 830px;
     width: 100%;
     top: 0;
@@ -31,10 +31,11 @@ video {
 #about-me {
 	z-index: 0;
 	color: white;
-	height: 25%;
+	height: 810px;
+	width: 1440px;
 	display: table-cell;
 	vertical-align: middle;
-	width: 40%;
+	/*padding: 100%;*/
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: rgba(0,0,0,0.8);*/
@@ -42,4 +43,5 @@ video {
 	border-color: white;
 	border-width: 10px;
 	text-align: center;
+	font-size: 2em;
 }
